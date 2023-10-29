@@ -23,3 +23,4 @@ MSI PRO Z790-A MAX WIFI D5 + 14700KF + RX6650XT EFI Hackintosh
 - CPU单核：2861
 - CPU多核：18007
 - GPU显卡：119013（Metal）
+- 硬盘：读6.1GB/s，写5.9GB/s(Sensei基准测试结果，标称读7.4GB/s)
