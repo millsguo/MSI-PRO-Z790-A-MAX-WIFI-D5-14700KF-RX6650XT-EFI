@@ -32,3 +32,7 @@ MSI PRO Z790-A MAX WIFI D5 + 14700KF + RX6650XT EFI Hackintosh
 
 - 如果用的不是我的同款主板，请自己定制USB端口
 - 如果不需要屏蔽NVME硬盘，请取消ACPI里SSDT-NVME-DISABLE
+
+# 优化记录
+
+- 增加`-ctrsmt`引导参数，提升CPU性能表现
