@@ -20,8 +20,8 @@ MSI PRO Z790-A MAX WIFI D5 + 14700KF + RX6650XT EFI Hackintosh
 
 # Geekbench 6.2.1 跑分结果
 
-- CPU单核：2861
-- CPU多核：18007
+- CPU单核：2861 / 优化后：3004 （提升5%）
+- CPU多核：18007 / 优化后：20270 （提升12%）
 - GPU显卡：119013（Metal）
 
 # Sensei 1.5.7 硬盘基准测试
