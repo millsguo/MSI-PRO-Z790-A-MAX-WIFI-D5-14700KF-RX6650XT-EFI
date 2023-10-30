@@ -38,6 +38,14 @@
 				<key>Path</key>
 				<string>SSDT-6x50_Spoof.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable Nvme HardDisk</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NVME-DISABLE.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>

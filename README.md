@@ -27,3 +27,8 @@ MSI PRO Z790-A MAX WIFI D5 + 14700KF + RX6650XT EFI Hackintosh
 # Sensei 1.5.7 硬盘基准测试
 
 - 硬盘：读6.1GB/s，写5.9GB/s(硬盘标称读7.4GB/s)
+
+# 使用说明
+
+- 如果用的不是我的同款主板，请自己定制USB端口
+- 如果不需要屏蔽NVME硬盘，请取消ACPI里SSDT-NVME-DISABLE
