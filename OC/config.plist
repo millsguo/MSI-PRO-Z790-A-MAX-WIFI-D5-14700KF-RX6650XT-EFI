@@ -786,7 +786,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 agdpmod=pikera keepsyms=1 alcid=66 igfxonln=1</string>
+				<string>agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>fwAAAA==</data>
 			</dict>
