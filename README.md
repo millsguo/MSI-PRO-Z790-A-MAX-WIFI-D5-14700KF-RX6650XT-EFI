@@ -35,4 +35,5 @@ MSI PRO Z790-A MAX WIFI D5 + 14700KF + RX6650XT EFI Hackintosh
 
 # 优化记录
 
-- 增加`-ctrsmt`引导参数，提升CPU性能表现
+- 2023-10-30 增加`-ctrsmt`引导参数，提升CPU性能表现
+- 2023-10-31 优化系统更新，解决小版本更新下载推送的问题
