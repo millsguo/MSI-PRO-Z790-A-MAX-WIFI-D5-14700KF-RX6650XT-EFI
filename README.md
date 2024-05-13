@@ -23,7 +23,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - CPU单核：2861 / 优化后：3004 （提升5%）
 - CPU多核：18007 / 优化后：20270 （提升12%）
 - GPU显卡：119013（Metal）
-- GPU显卡：1224589(Metal 3) （使用NootRx驱动）
+- GPU显卡：124589(Metal 3) （使用NootRx驱动）
 
 # Sensei 1.5.7 硬盘基准测试
 
