@@ -23,6 +23,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - CPU单核：2861 / 优化后：3004 （提升5%）
 - CPU多核：18007 / 优化后：20270 （提升12%）
 - GPU显卡：119013（Metal）
+- GPU显卡：1224589(Metal 3) （使用NootRx驱动）
 
 # Sensei 1.5.7 硬盘基准测试
 
@@ -38,6 +39,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - 2023-10-30 增加`-ctrsmt`引导参数，提升CPU性能表现
 - 2023-10-31 优化系统更新，解决小版本更新下载推送的问题
 - 2023-11-09 支持OpenCore 0.9.6
+- 2024-05-12 支持OpenCore 1.0.0, 使用NootRX替换WhateverGreen,去掉引导的菜单，同时升级了主板BIOS至最新的M4版本
 
 # 双系统蓝牙连接问题解决方法
 ### 问题：在Windows 11里配对好蓝牙音箱（或鼠标、键盘），可以正常使用，回到Mac OS里配对同一蓝牙音箱，有部分设备就会连接不上，导致每次换个系统都需要重新配对
@@ -52,3 +54,4 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 4. 重启进入Windows系统，打开注册表编辑器，将刚才导出的蓝牙注册表文件导入，如果提示不能访问注册表，在注册编辑器中的HKEY_LOCAL_MACHINE单击右键，选择权限，继承勾选上，然后应用，再重新导入即可
 5. 导入后重启Windows，打开蓝牙设备电源，此时可以直接连接蓝牙设备
 6. 重启进入macOS，也可以直接连接蓝牙设备，至此问题解决
+
