@@ -34,12 +34,19 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - 如果用的不是我的同款主板，请自己定制USB端口
 - 如果不需要屏蔽NVME硬盘，请取消ACPI里SSDT-NVME-DISABLE，我这里是把装Windows 11的固态盘在MACOS里屏蔽掉了
 
+# BIOS设置
+
+- 关闭 `Fast Boot` 快速启动
+- 关闭 `Secure Boot` 安全启动
+- 打开 `XHCI Hand-off`
+
 # 优化记录
 
 - 2023-10-30 增加`-ctrsmt`引导参数，提升CPU性能表现
 - 2023-10-31 优化系统更新，解决小版本更新下载推送的问题
 - 2023-11-09 支持OpenCore 0.9.6
 - 2024-05-12 支持OpenCore 1.0.0, 使用NootRX替换WhateverGreen,去掉引导的菜单，同时升级了主板BIOS至最新的M4版本
+- 2024-11-01 增加BIOS设置说明
 
 # 双系统蓝牙连接问题解决方法
 ### 问题：在Windows 11里配对好蓝牙音箱（或鼠标、键盘），可以正常使用，回到Mac OS里配对同一蓝牙音箱，有部分设备就会连接不上，导致每次换个系统都需要重新配对
