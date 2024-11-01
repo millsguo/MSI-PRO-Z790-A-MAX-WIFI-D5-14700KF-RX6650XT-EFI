@@ -62,6 +62,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 5. 导入后重启Windows，打开蓝牙设备电源，此时可以直接连接蓝牙设备
 6. 重启进入macOS，也可以直接连接蓝牙设备，至此问题解决
 
+
 # 微星主板启动黑屏故障
 
 ### 故障现象
