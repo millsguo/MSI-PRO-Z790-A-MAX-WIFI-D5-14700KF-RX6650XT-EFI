@@ -1,3 +1,6 @@
+# sequoia-15分支说明
+本分支为适配MacOS Sequoia 15.1版本而优化，目前暂不能驱动WIFI和蓝牙
+
 # MSI-PRO-Z790-A-MAX-WIFI-D5-14700KF-RX6650XT-EFI
 MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 
@@ -47,6 +50,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - 2023-11-09 支持OpenCore 0.9.6
 - 2024-05-12 支持OpenCore 1.0.0, 使用NootRX替换WhateverGreen,去掉引导的菜单，同时升级了主板BIOS至最新的M4版本
 - 2024-11-01 升级OpenCore 1.0.2；增加BIOS设置说明
+- 2024-11-11 sequoia-15分支开始适配MacOS Sequoia 15.1，但不能驱动蓝牙和WIFI
 
 # 双系统蓝牙连接问题解决方法
 ### 问题：在Windows 11里配对好蓝牙音箱（或鼠标、键盘），可以正常使用，回到Mac OS里配对同一蓝牙音箱，有部分设备就会连接不上，导致每次换个系统都需要重新配对
