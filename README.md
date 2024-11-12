@@ -36,7 +36,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 
 # 使用说明
 
-- 引导安装Sequoia 15后，需要安装OCLP [https://github.com/dortania/OpenCore-Legacy-Patcher/releases]点击下载
+- 引导安装Sequoia 15后，需要安装[OCLP] <https://github.com/dortania/OpenCore-Legacy-Patcher/releases>
 - 如果用的不是我的同款主板，请自己定制USB端口
 - 如果不需要屏蔽NVME硬盘，请取消ACPI里SSDT-NVME-DISABLE，我这里是把装Windows 11的固态盘在MACOS里屏蔽掉了
 
