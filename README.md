@@ -55,7 +55,8 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - 2024-11-01 升级OpenCore 1.0.2；增加BIOS设置说明
 - 2024-11-11 sequoia-15分支开始适配MacOS Sequoia 15.1，但不能驱动蓝牙和WIFI
 - 2024-11-12 sequoia-15分支完善WIFI和蓝牙驱动
-
+- 2025-02-12 升级至OpenCore 1.0.3，将CpuTopologyRebuild移动至第一位，启用28核CPU能力，否则只有8核能使用
+- 
 # 双系统蓝牙连接问题解决方法
 ### 问题：在Windows 11里配对好蓝牙音箱（或鼠标、键盘），可以正常使用，回到Mac OS里配对同一蓝牙音箱，有部分设备就会连接不上，导致每次换个系统都需要重新配对
 
