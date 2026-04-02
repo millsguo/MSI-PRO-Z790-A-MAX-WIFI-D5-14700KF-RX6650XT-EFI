@@ -1,5 +1,5 @@
 # 分支说明
-
+- master 适配 macOS Tahoe 26.4 版本
 - sequoia-15 本分支为适配MacOS Sequoia 15.1版本而优化，蓝牙和WIFI已驱动
 - ventura-13 本分支为适配MacOS Ventura 13版本，完美版本
 
@@ -20,7 +20,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - 主板板载有线网卡驱动成功（Intel i225-V）
 - CPU睿频成功，360水冷，日常温度38度
 - 显卡驱动成功，目前双显示器输出，一个27的1080P，一个27的2K
-- WIFI + 蓝牙免驱，隔空投送成功，连接蓝牙音箱成功
+- 蓝牙驱动成功
 - 休眠唤醒成功
 
 # Geekbench 6.2.1 跑分结果
@@ -36,7 +36,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 
 # 使用说明
 
-- 引导安装Sequoia 15后，需要安装[OCLP] <https://github.com/dortania/OpenCore-Legacy-Patcher/releases>
+- 引导安装Tahoe 26.4后，需要安装[OCLP] <https://github.com/dortania/OpenCore-Legacy-Patcher/releases>
 - 如果用的不是我的同款主板，请自己定制USB端口
 - 如果不需要屏蔽NVME硬盘，请取消ACPI里SSDT-NVME-DISABLE，我这里是把装Windows 11的固态盘在MACOS里屏蔽掉了
 
@@ -56,7 +56,7 @@ MSI PRO Z790-A MAX WI-FI D5 + 14700KF + RX6650XT EFI Hackintosh
 - 2024-11-11 sequoia-15分支开始适配MacOS Sequoia 15.1，但不能驱动蓝牙和WIFI
 - 2024-11-12 sequoia-15分支完善WIFI和蓝牙驱动
 - 2025-02-12 升级至OpenCore 1.0.3，将CpuTopologyRebuild移动至第一位，启用28核CPU能力，否则只有8核能使用
-
+- 2026-04-02 升级至OpenCore 1.0.7，所有驱动都升级至最新版
 
 # 双系统蓝牙连接问题解决方法
 ### 问题：在Windows 11里配对好蓝牙音箱（或鼠标、键盘），可以正常使用，回到Mac OS里配对同一蓝牙音箱，有部分设备就会连接不上，导致每次换个系统都需要重新配对
